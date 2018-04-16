@@ -1,3 +1,19 @@
+/*$brand-size: 300px;
+@mixin brand-control {
+	background-color:beige;
+	&:hover {
+		background-color:green;
+	}
+}
+@mixin transform($transformation: rotatey(90deg)) {
+	transform: $transformation;
+	-webkit-transform: $transformation;
+	-moz-transform: $transformation;
+	-ms-transform: $transformation;
+	-o-transform: $transformation;
+}
+$squareCount: 3;
+*/
 h1 {
   color: blue;
 }
@@ -10,16 +26,13 @@ h3 {
   color: blue;
 }
 
-button {
-  background-color: beige;
-}
-button:hover {
-  background-color: green;
-  transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-}
+/*button {
+	background-color:beige;
+	&:hover {
+		background-color:green;
+		@include transform(rotate(90deg));
+
+	}
+}*/
 
 /*# sourceMappingURL=main.css.map */
