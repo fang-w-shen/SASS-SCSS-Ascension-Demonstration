@@ -1,4 +1,25 @@
-* {
-  color: red; }
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  color: blue;
+}
+
+button {
+  background-color: beige;
+}
+button:hover {
+  background-color: green;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
 
 /*# sourceMappingURL=main.css.map */
