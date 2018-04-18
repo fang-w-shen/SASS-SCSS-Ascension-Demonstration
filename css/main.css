@@ -1,38 +1,36 @@
-/*$brand-size: 300px;
-@mixin brand-control {
-	background-color:beige;
-	&:hover {
-		background-color:green;
-	}
+h1, h2, h3 {
+  color: #123123;
 }
-@mixin transform($transformation: rotatey(90deg)) {
-	transform: $transformation;
-	-webkit-transform: $transformation;
-	-moz-transform: $transformation;
-	-ms-transform: $transformation;
-	-o-transform: $transformation;
-}
-$squareCount: 3;
-*/
+
 h1 {
-  color: blue;
-}
-
-h2 {
-  color: blue;
-}
-
-h3 {
-  color: blue;
+  color: red;
 }
 
 /*button {
-	background-color:beige;
+	background-color:blue;
 	&:hover {
-		background-color:green;
-		@include transform(rotate(90deg));
-
+		background-color:red;
 	}
-}*/
+}
+*/
+button {
+  background-color: beige;
+}
+button:hover {
+  background-color: green;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+#square-2 {
+  background-color: red;
+}
+
+#square-4 {
+  background-color: red;
+}
 
 /*# sourceMappingURL=main.css.map */
